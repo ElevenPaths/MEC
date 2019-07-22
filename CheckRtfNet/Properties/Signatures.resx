@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="0" xml:space="preserve">
+    <value>PIC  PIF SEA</value>
+    <comment>IBM Storyboard bitmap file</comment>
+  </data>
+  <data name="00 00 00 00" xml:space="preserve">
+    <value>PDB</value>
+    <comment>PalmPilot Database/Document File</comment>
+  </data>
+  <data name="00 00 01 00" xml:space="preserve">
+    <value>ico</value>
+    <comment>Computer icon encoded in ICO file format</comment>
+  </data>
+  <data name="00 00 01 B3" xml:space="preserve">
+    <value>mpg mpeg</value>
+    <comment>MPEG</comment>
+  </data>
+  <data name="00 00 01 BA" xml:space="preserve">
+    <value>mpg mpeg</value>
+    <comment>MPEG Program Stream</comment>
+  </data>
+  <data name="00 01 00 00" xml:space="preserve">
+    <value />
+    <comment>Palm Desktop Data File (Access format)</comment>
+  </data>
+  <data name="00 01 42 44" xml:space="preserve">
+    <value>DBA</value>
+    <comment>Palm Desktop To Do Archive</comment>
+  </data>
+  <data name="00 01 44 54" xml:space="preserve">
+    <value>TDA</value>
+    <comment>Palm Desktop Calendar Archive</comment>
+  </data>
+  <data name="00 61 73 6d" xml:space="preserve">
+    <value>wasm</value>
+    <comment>WebAssembly binary format[38]</comment>
+  </data>
+  <data name="01" xml:space="preserve">
+    <value>PIF</value>
+    <comment>Windows Program Information File</comment>
+  </data>
+  <data name="02" xml:space="preserve">
+    <value>SEA</value>
+    <comment>Mac Stuffit Self-Extracting Archive</comment>
+  </data>
+  <data name="03" xml:space="preserve">
+    <value>YTR</value>
+    <comment>IRIS OCR data file</comment>
+  </data>
+  <data name="04 22 4D 18" xml:space="preserve">
+    <value>lz4</value>
+    <comment>LZ4 Frame Format[36]</comment>
+  </data>
+  <data name="05 07 00 00" xml:space="preserve">
+    <value>cwk</value>
+    <comment>AppleWorks 5 document</comment>
+  </data>
+  <data name="06 07 E1 00" xml:space="preserve">
+    <value>cwk</value>
+    <comment>AppleWorks 6 document</comment>
+  </data>
+  <data name="0a 0d 0d 0a" xml:space="preserve">
+    <value>pcapng</value>
+    <comment>PCAP Next Generation Dump File Format</comment>
+  </data>
+  <data name="1A 45 DF A3" xml:space="preserve">
+    <value>mkv mka mks mk3d webm</value>
+    <comment>Matroska media container, including WebM</comment>
+  </data>
+  <data name="1B 4C 75 61" xml:space="preserve">
+    <value>luac</value>
+    <comment>Lua bytecode[42]</comment>
+  </data>
+  <data name="1F 8B" xml:space="preserve">
+    <value>gz tar.gz</value>
+    <comment>GZIP</comment>
+  </data>
+  <data name="1F 8B 08 00" xml:space="preserve">
+    <value>dat</value>
+    <comment>Minecraft Level Data File (NBT)</comment>
+  </data>
+  <data name="1F 9D" xml:space="preserve">
+    <value>z</value>
+    <comment>compressed file (often tar zip)</comment>
+  </data>
+  <data name="1F 9D1" xml:space="preserve">
+    <value>tar.z</value>
+    <comment>using Lempel-Ziv-Welch algorithm</comment>
+  </data>
+  <data name="1F A0" xml:space="preserve">
+    <value>z</value>
+    <comment>Compressed file (often tar zip)</comment>
+  </data>
+  <data name="1F A01" xml:space="preserve">
+    <value>tar.z</value>
+    <comment>using LZH algorithm</comment>
+  </data>
+  <data name="20 20 20 20" xml:space="preserve">
+    <value>fits fits</value>
+    <comment>Flexible Image Transport System (FITS)</comment>
+  </data>
+  <data name="21 3C 61 72" xml:space="preserve">
+    <value>deb</value>
+    <comment>linux deb file</comment>
+  </data>
+  <data name="24 53 44 49" xml:space="preserve">
+    <value>wma wmv</value>
+    <comment>System Deployment Image, a disk image format used by Microsoft</comment>
+  </data>
+  <data name="25 21 50 53" xml:space="preserve">
+    <value>ps</value>
+    <comment>PostScript document</comment>
+  </data>
+  <data name="25 50 44 46" xml:space="preserve">
+    <value>pdf</value>
+    <comment>PDF document</comment>
+  </data>
+  <data name="27 05 19 56" xml:space="preserve">
+    <value />
+    <comment>U-Boot / uImage. Das U-Boot Universal Boot Loader.[40]</comment>
+  </data>
+  <data name="30 26 B2 75" xml:space="preserve">
+    <value>asf wmv</value>
+    <comment>Advanced Systems Format[14]</comment>
+  </data>
+  <data name="30 82" xml:space="preserve">
+    <value>der</value>
+    <comment>DER encoded X.509 certificate</comment>
+  </data>
+  <data name="37 7A BC AF" xml:space="preserve">
+    <value>7z</value>
+    <comment>7-Zip File Format</comment>
+  </data>
+  <data name="38 42 50 53" xml:space="preserve">
+    <value>psd</value>
+    <comment>Photoshop Document file, Adobe Photoshop's native file format</comment>
+  </data>
+  <data name="3c 3f 78 6d" xml:space="preserve">
+    <value>XML</value>
+    <comment>eXtensible Markup Language when using the ASCIIcharacter encoding</comment>
+  </data>
+  <data name="3D 20 20 20" xml:space="preserve">
+    <value>fits</value>
+    <comment>Flexible Image Transport System (FITS)[16]</comment>
+  </data>
+  <data name="41 47 44 33" xml:space="preserve">
+    <value>fh8</value>
+    <comment>FreeHand 8 document[24][25][26]</comment>
+  </data>
+  <data name="41 4E 49 4D" xml:space="preserve">
+    <value>iff</value>
+    <comment>IFF CEL Animation</comment>
+  </data>
+  <data name="41 54 26 54" xml:space="preserve">
+    <value>djvu djv</value>
+    <comment>DjVu document</comment>
+  </data>
+  <data name="42 41 43 4B" xml:space="preserve">
+    <value>bac</value>
+    <comment>File or tape containing a backup done with AmiBack on an Amiga.</comment>
+  </data>
+  <data name="42 4D" xml:space="preserve">
+    <value>bmp dib</value>
+    <comment>BMP file, a bitmap format used mostly in the Windows world</comment>
+  </data>
+  <data name="42 50 47 FB" xml:space="preserve">
+    <value>bpg</value>
+    <comment>Better Portable Graphics format</comment>
+  </data>
+  <data name="42 5A 68" xml:space="preserve">
+    <value>bz2</value>
+    <comment>Compressed file using Bzip2 algorithm</comment>
+  </data>
+  <data name="43 44 30 30" xml:space="preserve">
+    <value>iso</value>
+    <comment>ISO9660 CD/DVD image file[15]</comment>
+  </data>
+  <data name="43 52" xml:space="preserve">
+    <value>cr2</value>
+    <comment>Canon's RAW format is based on the TIFF file format</comment>
+  </data>
+  <data name="43 57 53" xml:space="preserve">
+    <value>swf</value>
+    <comment>flash .swf</comment>
+  </data>
+  <data name="43 72 32 34" xml:space="preserve">
+    <value>crx</value>
+    <comment>Google Chrome extension[22] or packaged app[23]</comment>
+  </data>
+  <data name="44 43 4D 01" xml:space="preserve">
+    <value />
+    <comment>Windows Update Binary Delta Compression[35]</comment>
+  </data>
+  <data name="44 49 43 4D" xml:space="preserve">
+    <value>dcm</value>
+    <comment>DICOM Medical File Format</comment>
+  </data>
+  <data name="44 49 53 4B" xml:space="preserve">
+    <value>bac</value>
+    <comment>It typically is paired with an index file (idx) with the table of contents.</comment>
+  </data>
+  <data name="45 4D 55 33" xml:space="preserve">
+    <value>ez3 iso</value>
+    <comment>Emulator III synth samples</comment>
+  </data>
+  <data name="45 4D 58 32" xml:space="preserve">
+    <value>ez2</value>
+    <comment>Emulator Emaxsynth samples</comment>
+  </data>
+  <data name="45 52 02 00" xml:space="preserve">
+    <value>toast</value>
+    <comment>Roxio Toast disc image file, also some .dmg-files begin with same bytes</comment>
+  </data>
+  <data name="46 4C 49 46" xml:space="preserve">
+    <value>flif</value>
+    <comment>Free Lossless Image Format</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ??" xml:space="preserve">
+    <value>anim</value>
+    <comment>IFF CEL Animation</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 38 53 56 58" xml:space="preserve">
+    <value>8svx 8sv svx snd iff</value>
+    <comment>IFF 8-Bit Sampled Voice</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 41 43 42 4D" xml:space="preserve">
+    <value>acbm</value>
+    <comment>Amiga Contiguous Bitmap</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 41 43 42 4D1" xml:space="preserve">
+    <value>iff</value>
+    <comment>Amiga Contiguous Bitmap</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 41 49 46 46" xml:space="preserve">
+    <value>aiff snd aif</value>
+    <comment>Audio Interchange File Format</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 41 4E 42 4D" xml:space="preserve">
+    <value>anbm</value>
+    <comment>IFF Animated Bitmap</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 41 4E 42 4D1" xml:space="preserve">
+    <value>iff</value>
+    <comment>IFF Animated Bitmap</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 43 4D 55 53" xml:space="preserve">
+    <value>cmus mus iff</value>
+    <comment>IFF Musical Score</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 46 41 4E 54" xml:space="preserve">
+    <value>iff</value>
+    <comment>Amiga Fantavision Movie</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 46 41 58 58" xml:space="preserve">
+    <value>faxx fax iff</value>
+    <comment>IFF Facsimile Image</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 46 54 58 54" xml:space="preserve">
+    <value>ftxt</value>
+    <comment>IFF Formatted Text</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 46 54 58 541" xml:space="preserve">
+    <value>iff</value>
+    <comment>IFF Formatted Text</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 49 4C 42 4D" xml:space="preserve">
+    <value>ilbm</value>
+    <comment>IFF Interleaved Bitmap Image</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 53 4D 55 53" xml:space="preserve">
+    <value>smus smu mus iff</value>
+    <comment>IFF Simple Musical Score</comment>
+  </data>
+  <data name="46 4F 52 4D ?? ?? ?? ?? 59 55 56 4E" xml:space="preserve">
+    <value>yuvn yuv iff</value>
+    <comment>IFF YUV Image</comment>
+  </data>
+  <data name="46 57 53" xml:space="preserve">
+    <value>swf</value>
+    <comment>flash .swf</comment>
+  </data>
+  <data name="47" xml:space="preserve">
+    <value>ts tsa tsv</value>
+    <comment>MPEG Transport Stream (MPEG-2 Part 1)</comment>
+  </data>
+  <data name="47 49 46 38" xml:space="preserve">
+    <value>gif</value>
+    <comment>Image file encoded in the Graphics Interchange Format(GIF)</comment>
+  </data>
+  <data name="47 49 46 38 39 61" xml:space="preserve">
+    <value>gif</value>
+    <comment>Image file encoded in the Graphics Interchange Format(GIF)</comment>
+  </data>
+  <data name="471" xml:space="preserve">
+    <value>mpg mpeg</value>
+    <comment>MPEG-1 video and MPEG-2 video (MPEG-1 Part 2 and MPEG-2 Part 2)</comment>
+  </data>
+  <data name="49 44 33" xml:space="preserve">
+    <value>mp3</value>
+    <comment>MP3 file with an ID3v2 container</comment>
+  </data>
+  <data name="49 49 2A 00" xml:space="preserve">
+    <value>tif cr2</value>
+    <comment>Tagged Image File Format</comment>
+  </data>
+  <data name="49 4E 44 58" xml:space="preserve">
+    <value>idx</value>
+    <comment>Index file to a file or tape containing a backup done with AmiBack on an Amiga.</comment>
+  </data>
+  <data name="4B 44 4D" xml:space="preserve">
+    <value>vmdk</value>
+    <comment>VMDK files[20][21]</comment>
+  </data>
+  <data name="4C 5A 49 50" xml:space="preserve">
+    <value>lz</value>
+    <comment>lzip compressed file</comment>
+  </data>
+  <data name="4D 4C 56 49" xml:space="preserve">
+    <value>MLV</value>
+    <comment>Magic Lantern Video file[34]</comment>
+  </data>
+  <data name="4D 4D 00 2A" xml:space="preserve">
+    <value>tiff</value>
+    <comment>Tagged Image File Format</comment>
+  </data>
+  <data name="4D 53 43 46" xml:space="preserve">
+    <value>cab</value>
+    <comment>Microsoft Cabinet file</comment>
+  </data>
+  <data name="4D 54 68 64" xml:space="preserve">
+    <value>mid midi</value>
+    <comment>MIDI sound file[18]</comment>
+  </data>
+  <data name="4D 5A" xml:space="preserve">
+    <value>exe</value>
+    <comment>DOS MZ executable file format and its descendants (including NE and PE)</comment>
+  </data>
+  <data name="4E 45 53 1A" xml:space="preserve">
+    <value>nes</value>
+    <comment>Nintendo Entertainment System ROM file[31]</comment>
+  </data>
+  <data name="4F 52 43" xml:space="preserve">
+    <value>orc</value>
+    <comment>Apache ORC (Optimized Row Columnar) file format</comment>
+  </data>
+  <data name="4F 62 6A 01" xml:space="preserve">
+    <value>avro</value>
+    <comment>Apache Avro binary file format</comment>
+  </data>
+  <data name="4F 67 67 53" xml:space="preserve">
+    <value>ogg oga ogv</value>
+    <comment>Ogg, an open source media container format</comment>
+  </data>
+  <data name="50 41 52 31" xml:space="preserve">
+    <value />
+    <comment>Apache Parquet columnar file format</comment>
+  </data>
+  <data name="50 4D 4F 43" xml:space="preserve">
+    <value>dat</value>
+    <comment>Windows Files And Settings Transfer Repository[28]</comment>
+  </data>
+  <data name="52 49 46 46" xml:space="preserve">
+    <value>avi wav webp</value>
+    <comment>Audio Video Interleave video format</comment>
+  </data>
+  <data name="52 4E 43 01" xml:space="preserve">
+    <value />
+    <comment>Compressed file using Rob Northen Compression (version 1 and 2) algorithm</comment>
+  </data>
+  <data name="52 4E 43 02" xml:space="preserve">
+    <value />
+    <comment>Compressed file using Rob Northen Compression (version 1 and 2) algorithm</comment>
+  </data>
+  <data name="52 61 72 21" xml:space="preserve">
+    <value>rar</value>
+    <comment>RAR archive version 1.50 onwards[10]</comment>
+  </data>
+  <data name="53 44 50 58" xml:space="preserve">
+    <value>dpx</value>
+    <comment>SMPTE DPX image</comment>
+  </data>
+  <data name="53 45 51 36" xml:space="preserve">
+    <value>rc</value>
+    <comment>RCFile columnar file format</comment>
+  </data>
+  <data name="53 49 4D 50" xml:space="preserve">
+    <value>fits</value>
+    <comment>Flexible Image Transport System (FITS)[16]</comment>
+  </data>
+  <data name="53 50 30 31" xml:space="preserve">
+    <value>bin</value>
+    <comment>Amazon Kindle Update Package </comment>
+  </data>
+  <data name="53 5A 44 44" xml:space="preserve">
+    <value>Various</value>
+    <comment>Microsoft compressed file in Quantum format, used prior to Windows XP. File can be decompressed using Extract.exe or Expand.exe distributed with earlier versions of Windows.</comment>
+  </data>
+  <data name="54 41 50 45" xml:space="preserve">
+    <value />
+    <comment>Microsoft Tape Format</comment>
+  </data>
+  <data name="55 55 aa aa" xml:space="preserve">
+    <value>pcv</value>
+    <comment>PhotoCap Vector</comment>
+  </data>
+  <data name="58 50 44 53" xml:space="preserve">
+    <value>dpx</value>
+  </data>
+  <data name="62 76 78 32" xml:space="preserve">
+    <value>lzfse</value>
+    <comment>LZFSE - Lempel-Ziv style data compression algorithm using Finite State Entropy coding. (bvx2)</comment>
+  </data>
+  <data name="64 65 78 0A" xml:space="preserve">
+    <value>dex</value>
+    <comment>Dalvik Executable</comment>
+  </data>
+  <data name="65 87 78 56" xml:space="preserve">
+    <value>p25 obt</value>
+    <comment>PhotoCap Object Templates</comment>
+  </data>
+  <data name="66 4C 61 43" xml:space="preserve">
+    <value>flac</value>
+    <comment>Free Lossless Audio Codec[17]</comment>
+  </data>
+  <data name="66 74 79 70" xml:space="preserve">
+    <value>3gp 3g2</value>
+    <comment>3rd Generation Partnership Project 3GPP and 3GPP2multimedia files</comment>
+  </data>
+  <data name="74 6F 78 33" xml:space="preserve">
+    <value>tox</value>
+    <comment>Open source portable voxel file[33]</comment>
+  </data>
+  <data name="75 73 74 61" xml:space="preserve">
+    <value>tar</value>
+    <comment>tar archive[32]</comment>
+  </data>
+  <data name="76 2F 31 01" xml:space="preserve">
+    <value>exr</value>
+    <comment>OpenEXR image</comment>
+  </data>
+  <data name="77 4F 46 32" xml:space="preserve">
+    <value>woff2</value>
+    <comment>WOFF File Format 2.0</comment>
+  </data>
+  <data name="77 4F 46 46" xml:space="preserve">
+    <value>woff</value>
+    <comment>WOFF File Format 1.0</comment>
+  </data>
+  <data name="78 01" xml:space="preserve">
+    <value>zlib</value>
+    <comment>No Compression/low</comment>
+  </data>
+  <data name="78 01 73 0D" xml:space="preserve">
+    <value>dmg</value>
+    <comment>Apple Disk Image file</comment>
+  </data>
+  <data name="78 56 34" xml:space="preserve">
+    <value>PhotoCap Template</value>
+    <comment>PhotoCap Template</comment>
+  </data>
+  <data name="78 61 72 21" xml:space="preserve">
+    <value>xar</value>
+    <comment>eXtensible ARchive format[27]</comment>
+  </data>
+  <data name="78 9C" xml:space="preserve">
+    <value>zlib</value>
+    <comment>Default Compression</comment>
+  </data>
+  <data name="78 DA" xml:space="preserve">
+    <value>zlib</value>
+    <comment>Best Compression</comment>
+  </data>
+  <data name="7B 5C 72 74" xml:space="preserve">
+    <value>rtf</value>
+    <comment>Rich Text Format</comment>
+  </data>
+  <data name="7F 45 4C 46" xml:space="preserve">
+    <value />
+    <comment>Executable and Linkable Format</comment>
+  </data>
+  <data name="80 2A 5F D7" xml:space="preserve">
+    <value>cin</value>
+    <comment>Kodak Cineon image</comment>
+  </data>
+  <data name="89 50 4E 47" xml:space="preserve">
+    <value>png</value>
+    <comment>Image encoded in the Portable Network Graphics format[12]</comment>
+  </data>
+  <data name="8B 45 52 02" xml:space="preserve">
+    <value>toast</value>
+    <comment>Roxio Toast disc image file, also some .dmg-files begin with same bytes</comment>
+  </data>
+  <data name="a1 b2 c3 d4" xml:space="preserve">
+    <value>pcap</value>
+    <comment>Libpcap File Format</comment>
+  </data>
+  <data name="A6 D9 00 AA" xml:space="preserve">
+    <value>wma wmv</value>
+    <comment>System Deployment Image, a disk image format used by Microsoft</comment>
+  </data>
+  <data name="BE BA FE CA" xml:space="preserve">
+    <value>DBA</value>
+    <comment>Palm Desktop Calendar Archive</comment>
+  </data>
+  <data name="CA FE BA BE" xml:space="preserve">
+    <value>class</value>
+    <comment>Java class file, Mach-O Fat Binary</comment>
+  </data>
+  <data name="CE FA ED FE" xml:space="preserve">
+    <value />
+    <comment>Mach-O binary (reverse byte ordering scheme, 32-bit)[13]</comment>
+  </data>
+  <data name="cf 84 01" xml:space="preserve">
+    <value>lep</value>
+    <comment>Lepton compressed JPEG image[39]</comment>
+  </data>
+  <data name="CF FA ED FE" xml:space="preserve">
+    <value />
+    <comment>Mach-O binary (reverse byte ordering scheme, 64-bit)[13]</comment>
+  </data>
+  <data name="d4 c3 b2 a1" xml:space="preserve">
+    <value>pcap</value>
+    <comment>Libpcap File Format</comment>
+  </data>
+  <data name="ed ab ee db" xml:space="preserve">
+    <value>rpm</value>
+    <comment>RedHat Package Manager (RPM) package </comment>
+  </data>
+  <data name="EF BB BF" xml:space="preserve">
+    <value />
+    <comment>UTF-8 encoded Unicode byte order mark, commonly seen in text files.</comment>
+  </data>
+  <data name="FD 37 7A 58" xml:space="preserve">
+    <value>xz tar.xz</value>
+    <comment>XZ compression utility using LZMA2 compression</comment>
+  </data>
+  <data name="FE ED FA CE" xml:space="preserve">
+    <value />
+    <comment>Mach-O binary (32-bit)</comment>
+  </data>
+  <data name="FE ED FA CF" xml:space="preserve">
+    <value />
+    <comment>Mach-O binary (64-bit)</comment>
+  </data>
+  <data name="FF D8 FF DB" xml:space="preserve">
+    <value>jpg</value>
+    <comment>JPEG raw or in the JFIF or Exif file format</comment>
+  </data>
+  <data name="FF D8 FF E0" xml:space="preserve">
+    <value>jpeg</value>
+    <comment>JPEG raw or in the JFIF or Exif file format</comment>
+  </data>
+  <data name="FF FB" xml:space="preserve">
+    <value>mp3</value>
+    <comment>MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which's appended at the end of the file)</comment>
+  </data>
+  <data name="FF FE" xml:space="preserve">
+    <value />
+    <comment>Byte-order mark for text file encoded in little-endian 16-bit Unicode Transfer Format</comment>
+  </data>
+  <data name="FF FE 00 00" xml:space="preserve">
+    <value />
+    <comment>Byte-order mark for text file encoded in little-endian 32-bit Unicode Transfer Format</comment>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value />
+    <comment>Remark: LZ4 block format does not offer any magic bytes.[37]</comment>
+  </data>
+</root>

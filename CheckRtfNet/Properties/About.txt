@@ -1,0 +1,24 @@
+﻿{\rtf1\pc \b What is this all about? \b0
+\par
+\par
+Masked Extension Control is a program that makes your Windows rely on\par
+magic numbers, and not only on extensions, to choose the program that\par
+will be used to open the file.\par
+\par
+\b Why is this program relevant? \b0
+\par
+\par
+Attackers usually change extensions in\par
+files to make you trust the file, and this is dangerous. Some very\par
+popular attacks make RTF files to be opened with Word, just by modifying\par
+the RTF extension to DOC or DOCX. This way, they build exploitable RTF\par
+files that will take advantage of Word vulnerabilities or weaknesses to\par
+release their payload. However, if these RTF files are opened with\par
+WordPad, the threat will disappear. The same for .MHT files: if they are\par
+opened with Word, some vulnerabilities may be exploited, but if they are\par
+opened with a browser, is less likely that something happens.\par
+\par
+This program does not need to be resident on memory. It modifies Windows\par
+registry to open MHT, DOC, RTF and DOCX files with the program that they\par
+should be opened, so trusting in magic number instead of extensions.\par
+If you want to stop using it, you just have to uninstall it.\par
